@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
@@ -135,7 +134,6 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
-
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
@@ -156,9 +154,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-
-//  console.log(Math.random()); // Output: Rabdom number between 0 and 1
-//  console.log(Math.floor(3.7)); // Output: 3 (round down)
-//  console.log(Math.ceil(3.2)); // Output: 4 (round up)
-//  console.log(Math.pow(2, 3)); // Output: 8 (2 raised to the power of 3)
